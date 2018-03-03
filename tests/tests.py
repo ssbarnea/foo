@@ -16,3 +16,6 @@ class SomeTests(unittest.TestCase):
 
     def test_3_randomly_fails(self):
         self.assertNotEqual(1, randint(1, 3))
+
+    def test_4(self):
+        self.assertEqual(1, 1)
