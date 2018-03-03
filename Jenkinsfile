@@ -10,7 +10,7 @@ timestamps {
             stage('build') {
                 checkout scm
 
-            sh 'echo done'
+            sh 'tox'
 
             }
             // -------------------------------------------------------------------------
